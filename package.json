@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13"
+  },
+  "name": "idecisionapp1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rajat sran",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^27.0.1",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
