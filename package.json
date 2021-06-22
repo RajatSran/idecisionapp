@@ -1,14 +1,23 @@
 {
   "dependencies": {
+    "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
-    "@babel/preset-react": "^7.13.13"
+    "@babel/preset-react": "^7.13.13",
+    "live-server": "^1.2.1",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2"
   },
   "name": "idecisionapp1",
   "version": "1.0.0",
   "main": "index.js",
   "author": "rajat sran",
   "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "build-babel": "babel src/app.js --out-file=scripts/app.js --presets=@babel/preset-env,@babel/preset-react --watch"
+  },
   "devDependencies": {
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^27.0.1",
