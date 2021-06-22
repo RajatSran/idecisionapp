@@ -5,6 +5,7 @@
     "@babel/preset-env": "^7.14.2",
     "@babel/preset-react": "^7.13.13",
     "live-server": "^1.2.1",
+    "validator": "^13.6.0",
     "webpack": "^5.40.0",
     "webpack-cli": "^4.7.2"
   },
@@ -15,7 +16,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
-    "build": "webpack",
+    "build": "webpack --watch",
     "build-babel": "babel src/app.js --out-file=scripts/app.js --presets=@babel/preset-env,@babel/preset-react --watch"
   },
   "devDependencies": {
